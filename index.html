@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Formulário de cadastro</title>
+    <link rel="stylesheet" href="./main.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&display=swap" rel="stylesheet">
+</head>
+<body>
+    <header>
+        <div class="container">
+            <h1>Ficha de cadastro</h1>
+        </div>
+        <nav>
+        </nav>
+    </header>
+    <section>
+        <div class="container">
+            <h2>Dados cadastrais</h2>
+            <p class="paragrafo">
+                Preencha o formulário abaixo corretamente com bastante atenção para indicarmos uma melhor oportunidade de estágio/emprego para você.
+            </p>
+            <form>
+                <div class="form-campo">
+                    <label for="inputnome">Nome:</label>
+                    <input type="text" id="inputnome" placeholder="Nome completo" name="inputnome" />
+                </div>
+                <div class="form-campo">
+                    <label for="inputemail">E-mail:</label>
+                    <input type="email" id="inputemail" placeholder="E-mail" name="inputemail" />
+                </div>
+                <div class="form-campo">
+                    <label for="inputtelefone">Telefone:</label>
+                    <input type="tel" id="inputtelefone" placeholder="Telefone" name="inputtelefone" />                </div>
+                <div class="form-campo">
+                    <label for="inputcpf">CPF:</label>
+                    <input type="text" id="inputcpf" placeholder="CPF" name="inputcpf" />
+                </div>
+                <div class="form-campo">
+                    <label for="inputendereco">Endereço completo:</label>
+                    <input type="text" id="inputendereco" placeholder="Endereço completo" name="inputendereco" />
+                </div>
+                <div class="form-campo">
+                    <label for="inputcep">CEP:</label>
+                    <input type="text" id="inputcep" placeholder="CEP" name="cep" />
+                </div>
+                <div class="form-campo">
+                    <label for="inputMensagem">Escreva mais informações relevantes sobre você:</label>
+                    <textarea id="inputMensagem" placeholder="Habilidades, experiências, pontos fortes..." name="mensagem" ></textarea>
+                </div>
+                <button type="submit">Enviar dados</button>
+
+            </form>
+        </div>
+    </section>
+    <footer>
+        <div class="container container-flex">
+            <p>
+                2023 &copy; CEE - Comunicação Empresa Empregado - Todos os direitos reservados
+            </p>
+        </div>
+    </footer>
+    
+    <script type="text/javascript" src="https://code.jquery.com/jquery-3.7.0.min.js"></script>
+    <script src="./js/jquery.mask.min.js"></script>
+    <script src="./js/jquery.validate.min.js"></script>
+    <script src="./js/messages_pt_BR.min.js"></script>
+    <script src="./js/main.js"></script>
+</body>
+</html>
