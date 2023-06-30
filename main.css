@@ -1,0 +1,23 @@
+header {
+    position: sticky;
+    top: 0;
+    left: 0;
+    z-index: 1;
+}
+
+section {
+    padding: 70px;
+}
+
+#inicio {
+    padding: 0;
+}
+
+textarea {
+    resize: none;
+    margin-bottom: 8px;
+}
+
+.navbar-nav .nav-link.active, footer {
+    color: #fff;
+}
